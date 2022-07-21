@@ -7,7 +7,11 @@
 }
 
 body {
+
+    background-color: #ffbaf1;
+
     background-color: #70c6c7;
+
 }
 
 .resume-contents {
@@ -21,13 +25,21 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
+
+    background-color: #5b1487;
+
     background-color: #00204A;
+
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
+
+    background-color: #d29ac7;
+
     background-color: #4B6982;
+
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -94,7 +106,11 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
+
+    color: #ffffff;
+
     color: #2E86C1;
+
 }
 
 .skills ul {
@@ -133,6 +149,8 @@ body {
 }
 
 .right-title {
+
+    color: #5b1487;
     color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
@@ -160,6 +178,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
+    padding: 10px;
     color: #F1F8FD;
 }
 
